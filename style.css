@@ -1,0 +1,53 @@
+header{
+    display:flex;
+}
+
+h2{ color: rgb(255, 255, 255);}
+
+
+
+
+
+
+nav{
+    display:flex;
+flex-direction: row;
+justify-content: space-between;
+background-color: rgba(255, 242, 185, 0);
+width: 20%;
+
+position: absolute;
+    top: 40px;
+    left: 0px;
+    size: 200px;
+}
+
+nav ul {
+    background-color: rgba(244, 165, 96, 0);
+    border-style: solid;
+    border-color:rgba(255, 245, 238, 0);
+    border-width: 2px;
+    padding: 10px;
+    border-radius: 10px;
+    }
+    nav ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+  
+    }
+    nav ul li a {
+    text-decoration: black;
+    color: rgb(0, 0, 0);}
+
+body{
+    background-image: url("metodo-di-lavoro.jpg");
+    background-size: cover;
+}
+
+
+
+
+
+
